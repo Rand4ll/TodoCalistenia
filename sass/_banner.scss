@@ -1,0 +1,100 @@
+/*SECCION BANNER*/
+#main__home {
+    min-height: 100vh;
+    img {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    .main__contenido {
+        position: absolute;
+        display: flex;
+        width: 400px;
+        left: 40%;
+        top: 50%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main__button {
+            font-weight: 600;
+            background-color: #EDF131;
+            color: #12130e;
+            text-align: center;
+            width: 150px;
+        a {
+            color: black;
+            }
+        a:hover {
+            font-size: 18px;
+            }
+    }
+    
+    .main__txt h1 {
+        font-weight: 600;
+        font-size: 22px;
+        color: white;
+        padding-bottom: 15px;
+    }
+}
+
+/*SISTEMA RESPONSIVE*/
+@media (max-width: 980px) {
+     #main__home {
+        display: flex;
+        }
+        .main__contenido {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            }
+        img{
+            width: 100%;
+            }
+    }
+
+@media (max-width: 660px) {
+    #main__home {
+            display: flex;
+        }
+        .main__contenido {
+                flex-direction: column;
+            .main__txt {
+                justify-content: center;
+                }
+            .main__button{
+                justify-content: center;
+                }
+        }
+}
+
+@media (max-width: 520px) {
+    #main__home {
+            display: flex;
+        }
+        .main__contenido {
+                flex-direction: column;
+            .main__txt {
+                justify-content: center;
+                }
+            .main__button{
+                justify-content: center;
+                }
+        }
+}
+
+@media (max-width: 480px) {
+    #main__home {
+            display: flex;
+        }
+        .main__contenido {
+                flex-direction: column;
+            .main__txt {
+                font-size: 10px;
+                justify-content: center;
+                }
+            .main__button {
+                justify-content: center;
+                }
+        }
+}

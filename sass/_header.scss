@@ -1,0 +1,26 @@
+/*HEADER Y NAV*/
+#header {
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #12130e;
+        z-index: 2000;
+        top: 0;
+    a {
+        color: white;
+        font-weight: 800;
+        padding-right: 40px;
+        font-size: 18px;
+        }
+    a:hover {
+        color: #EDF131;
+        font-size: 20px;
+    }
+    img {
+        width: 160px;
+        align-items: center;
+        margin-right: 10px;
+
+   }
+}

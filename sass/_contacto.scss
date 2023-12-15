@@ -1,0 +1,38 @@
+/*CONTACTO PAGE*/
+#contacto {
+    height: 100vh;
+    background-color: #12130e;
+.contactoh1{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.contactocontenedor{
+        margin-left: 30px;
+        padding-bottom: 76px;
+    h2{
+        color: white;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    label{
+        color: white;
+        font-size: 22px;
+    }
+    input{
+        width: 120px;
+        height: 22px;
+    }
+    textarea{
+        resize: none;
+        width: 500px;
+        height: 250px;
+    }
+    .submit{
+        background-color: #EDF131;
+        color:black;
+        text-align: center;
+    }
+}
+}
+/*SISTEMA RESPONSIVE*/

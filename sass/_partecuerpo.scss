@@ -1,0 +1,38 @@
+ /*SECCION PARTE DEL CUERPO*/
+ #cuerpo {
+    background-color: #12130e;
+    padding: 20px;
+    height: 250px;
+.cuerpo__h2{
+            text-align: center;
+            color: white;
+            height: 50px;
+            padding-bottom: 70px;
+            padding-top: 15px;
+        h2{
+            font-weight: 600;
+            }
+}
+.cuerpo__contenedor {
+    height: 150px;
+    text-align: center;
+}
+.cuerpo__button{
+    margin-top: 50px;
+        a{
+            padding: 18px;
+            color: black;
+            font-weight: 800;
+            font-size: 22px;
+            background-color: #EDF131;
+        }
+        a:hover{
+            font-size: 25px;
+            background-color: #EDF131;
+}
+.dropdown{
+height: 30px;
+    }
+}
+}
+/*SISTEMA RESPONSIVE*/

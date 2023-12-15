@@ -1,0 +1,64 @@
+/*NUTRICION PAGE*/
+#nutricion {
+    height: 100vh;
+    background-color: #12130e;
+     img{
+        width: 600px;
+        height: 450px;
+        margin-right: 20px;
+    }
+    .nutricionh1{
+        text-align: center;
+        color: white;
+        padding-top: 24px;
+        margin-bottom: 28px;
+    }
+    .nutricioncontenedor{
+        display: flex;
+    }
+    .nutriciontxt p{
+        color: white;
+        font-family: sans-serif;
+    }
+}
+
+/*SISTEMA RESPONSIVE*/
+@media (max-width: 800px){
+    .nutricioncontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .nutricionimg img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    #nutricion{
+        width: 100%;
+    }
+    .nutricioncontenedor    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    .nutricionimg {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+
+@media (max-width: 520px){
+    #nutricion{
+        width: 100%;
+    }
+    .nutricioncontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .nutricionimg img {
+            width: 50vw;
+        }
+    }
+}

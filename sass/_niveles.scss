@@ -1,0 +1,43 @@
+/*SECCION NIVELES*/
+#niveles {
+    background-color: #12130e;
+    padding: 30px;
+img {
+    width: 380px;
+    height: 280px;
+}
+.nivelesh2 {
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+}
+.nivelescontenedor {
+    display: flex;
+    justify-content: space-around;
+h3 {
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    }
+div h3:hover {
+    color: #EDF131;
+    font-size: 25px;
+    }
+}
+}
+/*SISTEMA RESPONSIVE*/
+
+@media (max-width: 520px) {
+    #niveles{
+        display: flex;
+    }
+    .nivelescontenedor{
+        flex-direction: column;
+    }
+}
