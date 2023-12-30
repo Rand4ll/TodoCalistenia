@@ -86,6 +86,47 @@
     display: none;
   }
 }
+@media (max-width: 379px) {
+  #footer {
+    bottom: 0;
+    display: flex;
+  }
+  .footercontenedor {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .footer__img img {
+    height: 90px;
+    justify-content: flex-start;
+  }
+  .footer__lista {
+    font-size: 16px;
+    height: 90px;
+    justify-content: flex-start;
+  }
+  .footer__social {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  #footer {
+    bottom: 0;
+  }
+  #footer .footercontenedor {
+    width: 100vw;
+  }
+  #footer .footercontenedor .footer__img img {
+    display: none;
+  }
+  #footer .footercontenedor .footer__lista ul li {
+    display: inline-block;
+    font-size: 12px;
+  }
+  #footer .footercontenedor .footer__social {
+    display: none;
+  }
+}
 /*HEADER Y NAV*/
 #header {
   position: sticky;
@@ -333,6 +374,22 @@
 }
 
 /*SISTEMA RESPONSIVE*/
+@media (max-width: 540px) {
+  #workouts .workoutscontenedor p {
+    display: none;
+  }
+  #workouts .workoutscontenedor img {
+    width: 80vw;
+  }
+}
+@media (max-width: 400px) {
+  #workouts .workoutscontenedor p {
+    display: none;
+  }
+  #workouts .workoutscontenedor img {
+    width: 80vw;
+  }
+}
 /*NUTRICION PAGE*/
 #nutricion {
   height: 100vh;
@@ -365,12 +422,17 @@
     justify-content: center;
   }
   .nutricioncontenedor .nutricionimg img {
+    width: 100vw;
+  }
+}
+@media (max-width: 620px) {
+  #nutricion .nutricioncontenedor img {
     width: 100%;
   }
 }
 @media (max-width: 600px) {
   #nutricion {
-    width: 100%;
+    width: 100vw;
   }
   .nutricioncontenedor {
     display: flex;
@@ -378,11 +440,10 @@
     justify-content: center;
   }
   .nutricionimg {
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 100%;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 515px) {
   #nutricion {
     width: 100%;
   }
@@ -392,7 +453,46 @@
     justify-content: center;
   }
   .nutricioncontenedor .nutricionimg img {
-    width: 50vw;
+    width: 100vw;
+  }
+}
+@media (max-width: 480px) {
+  #nutricion {
+    width: 100%;
+  }
+  .nutricioncontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nutricioncontenedor .nutricionimg img {
+    width: 100vw;
+  }
+}
+@media (max-width: 400px) {
+  #nutricion {
+    width: 100%;
+  }
+  .nutricioncontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nutricioncontenedor .nutricionimg img {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  #nutricion {
+    width: 100%;
+  }
+  .nutricioncontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nutricioncontenedor .nutricionimg img {
+    width: 100vw;
   }
 }
 /*CONTACTO PAGE*/
@@ -434,6 +534,16 @@
 }
 
 /*SISTEMA RESPONSIVE*/
+@media (max-width: 540px) {
+  #contacto .contactocontenedor textarea {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  #contacto .contactocontenedor textarea {
+    width: 80%;
+  }
+}
 /*QUIENES SOMOS PAGE*/
 #quienessomos {
   background-color: #12130e;
@@ -459,6 +569,16 @@
 }
 
 /*SISTEMA RESPONSIVE*/
+@media (max-width: 889px) {
+  .quienessomoscontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .quienessomoscontenedor .quienessomosimg img {
+    width: 100vw;
+  }
+}
 @media (max-width: 800px) {
   .quienessomoscontenedor {
     display: flex;
@@ -466,26 +586,38 @@
     justify-content: center;
   }
   .quienessomoscontenedor .quienessomosimg img {
-    width: 100%;
+    width: 100vw;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 655px) {
   #quienessomos {
-    width: 100%;
+    width: 100vw;
   }
-  .quienessomoscontenedor {
+  #quienessomos .quienessomoscontenedor {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .quienessomosimg {
-    padding-left: 50px;
-    padding-right: 50px;
+  #quienessomos .quienessomosimg img {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  #quienessomos {
+    width: 100vw;
+  }
+  #quienessomos .quienessomoscontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #quienessomos .quienessomosimg img {
+    width: 400px;
   }
 }
 @media (max-width: 520px) {
   #quienessomos {
-    width: 100%;
+    width: 100vw;
   }
   .quienessomoscontenedor {
     display: flex;
@@ -496,20 +628,30 @@
     width: 50vw;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 455px) {
   #quienessomos {
-    width: 100%;
+    width: 100vw;
   }
-  .quienessomoscontenedor {
+  #quienessomos .quienessomoscontenedor {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .quienessomosimg img {
-    width: 50vw;
+  #quienessomos .quienessomosimg img {
+    width: 350px;
   }
-  .quienessomostxt p {
-    margin-bottom: 90px;
+}
+@media (max-width: 404px) {
+  #quienessomos {
+    width: 100vw;
+  }
+  #quienessomos .quienessomoscontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #quienessomos .quienessomosimg img {
+    width: 100%;
   }
 }
 

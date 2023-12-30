@@ -36,3 +36,19 @@
 }
 }
 /*SISTEMA RESPONSIVE*/
+
+@media (max-width: 540px){
+    #contacto {
+        .contactocontenedor textarea{
+            width: 80%;
+        }  
+    }
+}
+
+@media (max-width: 500px){
+    #contacto {
+        .contactocontenedor textarea{
+            width: 80%;
+        }  
+    }
+}

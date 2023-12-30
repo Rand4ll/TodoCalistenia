@@ -29,27 +29,39 @@
         flex-direction: column;
         justify-content: center;
         .nutricionimg img {
-            width: 100%;
+            width: 100vw;
         }
     }
 }
 
+@media (max-width: 620px){
+    #nutricion {
+        .nutricioncontenedor{
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+
 @media (max-width: 600px){
     #nutricion{
-        width: 100%;
+        width: 100vw;
     }
-    .nutricioncontenedor    {
+    .nutricioncontenedor {
         display: flex;
         flex-direction: column;
         justify-content: center;
         }
     .nutricionimg {
-            padding-left: 50px;
-            padding-right: 50px;
+            width: 100%;
         }
     }
 
-@media (max-width: 520px){
+
+@media (max-width: 515px){
     #nutricion{
         width: 100%;
     }
@@ -58,7 +70,49 @@
         flex-direction: column;
         justify-content: center;
     .nutricionimg img {
-            width: 50vw;
+            width: 100vw;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    #nutricion{
+        width: 100%;
+    }
+    .nutricioncontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .nutricionimg img {
+            width: 100vw;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    #nutricion{
+        width: 100%;
+    }
+    .nutricioncontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .nutricionimg img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    #nutricion{
+        width: 100%;
+    }
+    .nutricioncontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .nutricionimg img {
+            width: 100vw;
         }
     }
 }

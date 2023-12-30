@@ -22,35 +22,59 @@ h1{
 }
 }
 /*SISTEMA RESPONSIVE*/
+@media (max-width: 889px){
+    .quienessomoscontenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .quienessomosimg img {
+            width: 100vw;
+        }
+    }
+}
+
 @media (max-width: 800px){
     .quienessomoscontenedor{
         display: flex;
         flex-direction: column;
         justify-content: center;
         .quienessomosimg img {
-            width: 100%;
+            width: 100vw;
+        }
+    }
+}
+
+@media (max-width: 655px){
+    #quienessomos{
+        width: 100vw;
+    .quienessomoscontenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    .quienessomosimg img{
+        width: 400px;
         }
     }
 }
 
 @media (max-width: 600px){
     #quienessomos{
-        width: 100%;
-        }
+        width: 100vw;
     .quienessomoscontenedor {
         display: flex;
         flex-direction: column;
         justify-content: center;
         }
-    .quienessomosimg {
-            padding-left: 50px;
-            padding-right: 50px;
+    .quienessomosimg img{
+        width: 400px;
         }
     }
+}
 
 @media (max-width: 520px) {
     #quienessomos{
-        width: 100%;
+        width: 100vw;
     }
     .quienessomoscontenedor{
         display: flex;
@@ -62,21 +86,31 @@ h1{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 455px){
     #quienessomos{
-        width: 100%;
-    }
-    .quienessomoscontenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    .quienessomosimg img {
-        width: 50vw;
-    }
-    .quienessomostxt p{
-        margin-bottom: 90px;
+        width: 100vw;
+    .quienessomoscontenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    .quienessomosimg img{
+        width: 350px;
+        }
     }
 }
 
+@media (max-width: 404px){
+    #quienessomos{
+        width: 100vw;
+    .quienessomoscontenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    .quienessomosimg img{
+        width: 100%;
+        }
+    }
+}
 

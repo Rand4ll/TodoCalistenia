@@ -34,3 +34,28 @@
     }
 }
 /*SISTEMA RESPONSIVE*/
+@media (max-width: 540px){
+    #workouts{
+        .workoutscontenedor{
+        p{
+            display: none;
+        }
+        img{
+            width: 80vw;
+    }
+}
+}
+}
+
+@media (max-width: 400px){
+    #workouts{
+        .workoutscontenedor{
+        p{
+            display: none;
+        }
+        img{
+            width: 80vw;
+    }
+}
+}
+}
